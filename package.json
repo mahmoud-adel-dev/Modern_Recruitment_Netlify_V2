@@ -1,0 +1,19 @@
+{
+  "name": "modern-recruitment-netlify",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "hash-password": "node scripts/hash-password.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "npx netlify-cli dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4",
+    "nodemailer": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
